@@ -1,0 +1,173 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  text-decoration:none;
+  list-style:none;
+  outline:none;
+  font-family: 'Noto Sans', sans-serif;
+  font-size:14px;
+  color:#828282;
+}
+body{
+  background-color:#424242;
+}
+::selection{
+  background-color:#626262;
+  color:#828282;
+}
+nav{
+  width:400px;
+  height:100%;
+  background-color:#242424;
+  position:fixed;
+  right:0;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+p, a, li, input{
+  margin:2.5px 10px 2.5px 0px;
+}
+ul{
+  width:400px;
+  height:auto;
+  padding:20px;
+  border-bottom:1px solid #202020;
+}
+ul:hover{
+  background-color:#282828;
+}
+li{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+a:hover{
+  text-decoration:underline;
+}
+.bold{
+  font-weight:700;
+}
+input[class='input-color']{
+  background-color:#303030;
+  width:90px;
+  height:30px;
+  border:1px solid #202020;
+  border-radius:2px;
+  text-align:center;
+}
+input[class='input-title']{
+  background-color:#303030;
+  width:260px;
+  height:30px;
+  border:1px solid #202020;
+  border-radius:2px;
+  text-align:center;
+}
+input[class='input-value']{
+  background-color:#303030;
+  width:30px;
+  height:30px;
+  border:1px solid #202020;
+  border-radius:2px;
+  text-align:center;
+}
+input[class='input-size']{
+  background-color:#303030;
+  width:60px;
+  height:30px;
+  border:1px solid #202020;
+  border-radius:2px;
+  text-align:center;
+}
+input[class='input-url']{
+  background-color:#303030;
+  width:360px;
+  height:30px;
+  border:1px solid #202020;
+  border-radius:2px;
+  text-align:center;
+}
+.textarea{
+  width:360px;
+  height:150px;
+  background-color:#303030;
+  border:1px solid #202020;
+  border-radius:2px;
+  resize:none;
+}
+input:focus, textarea:focus{
+  transition:all 1s ease;
+  border:1px solid #4270B5;
+}
+.button{
+  background-color:#4270B5;
+  width:360px;
+  height:40px;
+  border-radius:2px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#ffffff;
+}
+section{
+  background-color:#242424;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  width:calc(100% - 400px);
+  height:100%;
+  position:fixed;
+  overflow:auto;
+}
+h4{
+  font-family: 'Anton', sans-serif;
+  font-size:36px;
+  color:#ffffff;
+  text-shadow: 2px 0px 3px #66a6ff;
+  text-align:center;
+}
+.grid{
+  width:800px;
+  height:auto;
+  margin:auto;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  transform:rotateX(65deg) rotateY(0deg) rotateZ(45deg);
+}
+.iso1{
+  width:200px;
+  height:300px;
+  background-image:url('http://cuberto.com/assets/img/ewa/screens/1.png');
+  background-size:cover;
+  background-position:center;
+}
+.iso2{
+  width:200px;
+  height:300px;
+  background-image:url('http://cuberto.com/assets/img/ewa/screens/2.png');
+  background-size:cover;
+  background-position:center;
+}.iso3{
+  width:200px;
+  height:300px;
+  background-image:url('http://cuberto.com/assets/img/ewa/screens/3.png');
+  background-size:cover;
+  background-position:center;
+}.iso4{
+  width:200px;
+  height:300px;
+  background-image:url('http://cuberto.com/assets/img/ewa/screens/4.png');
+  background-size:cover;
+  background-position:center;
+}.iso5{
+  width:200px;
+  height:300px;
+  background-image:url('http://cuberto.com/assets/img/ewa/screens/5.png');
+  background-size:cover;
+  background-position:center;
+}
+[class*='iso']{
+  box-shadow:0px 0px 0px 0px #000000;
+  margin:10px 10px 10px 10px;
+  transition:all 1s ease;
+}

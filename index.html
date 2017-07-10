@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>IDT v2 - Isometric Designer Tool</title>
+
+  <meta charset='utf-8'>
+  <meta name='author' content='Czara Cozloschi'>
+  <meta name='description' content='IDT - Isometric Designer Tool'>
+  <meta name='keywords' content='ISOMETRIC, DESIGNER, TOOL, PRESENTATION'>
+
+  <link rel='stylesheet' type='text/css' href='style.css'>
+  <link rel='shortcut icon' href='favicon.PNG'>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Noto+Sans:400,700" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><p class='bold'>IDT - Isometric Designer Tool</p></li>
+    </ul>
+    <ul>
+      <li><p class='bold'>General settings</p> <p>-</p> <a href='#'>Reset</a></li>
+      <li><p>Width</p><input type='text' placeholder='1366' title='width' class='input-size'><p>px</p> <p>Height</p><input type='text' placeholder='768' title='height' class='input-size'><p>px</p></li>
+      <li><p>Background color</p><input type='text' placeholder='#000000' title='background color' class='input-color'></li>
+      <li><p>Background gradient</p></li>
+      <li><input type='text' placeholder='0' title='angle' class='input-value'><p>deg</p><input type='text' placeholder='#000000' title='color 1' class='input-color'><input type='text' placeholder='#000000' title='color 2' class='input-color'></li>
+      <li><p>Title and color settings</p></li>
+      <li><input type='text' placeholder='Isometric Presentation Title' title='presentation title' class='input-title'><input type='text' placeholder='#000000' title='title color' class='input-color'></li>
+      <li><p>Google fonts</p></li>
+      <li><input type='text' placeholder='Fonts' title='font' class='input-url'></li>
+      <li><p>Title shadow settings</p></li>
+      <li><input type='text' placeholder='0' title='horizontal shadow' class='input-value'><p>px</p><input type='text' placeholder='0' title='vertical shadow' class='input-value'><p>px</p><input type='text' placeholder='0' title='blur' class='input-value'><p>px</p><input type='text' placeholder='#000000' title='shadow color' class='input-color'></li>
+    </ul>
+    <ul>
+      <li><p class='bold'>Upload images or add URL</p><p>-<p><a href='#'>Reset</a></li>
+
+      <li><input type='text' placeholder='https://www.yourlink.com/image.format' title='URL' class='input-url'></li>
+
+    </ul>
+    <ul>
+      <li><p class='bold'>ISOMETRIC SETTINGS</p><p>-</p><a href='#'>Reset</a></li>
+      <li><p>Width</p><input type='text' placeholder='200' title='width' class='input-size'><p>px</p> <p>Height</p><input type='text' placeholder='300' title='height' class='input-size'><p>px</p></li>
+      <li><p>Border Radius (Rounder corners)</p></li>
+      <li><input type='text' placeholder='0' title='top left' class='input-value'><p>px</p><input type='text' placeholder='0' title='top right' class='input-value'><p>px</p><input type='text' placeholder='0' title='bottom right' class='input-value'><p>px</p><input type='text' placeholder='0' title='bottom left' class='input-value'><p>px</p></li>
+      <li><p>Shadow settings</p></li>
+      <li><input type='text' placeholder='0' title='horizontal shadow' class='input-value'><p>px</p><input type='text' placeholder='0' title='vertical shadow' class='input-value'><p>px</p><input type='text' placeholder='0' title='blur' class='input-value'><p>px</p><input type='text' placeholder='0' title='spread' class='input-value'><p>px</p><input type='text' placeholder='#000000' title='shadow color' class='input-color'></li>
+      <li><p>offset X - Y - Z</p></li>
+      <li><input type='text' placeholder='0' title='offset X' class='input-value'><p>deg</p><input type='text' placeholder='0' title='offset Y' class='input-value'><p>deg</p><input type='text' placeholder='0' title='offset Z' class='input-value'><p>deg</p></li>
+      <li><p>Spacing between items (Top - Right - Bottom - Left)</p></li>
+      <li><input type='text' placeholder='0' title='top' class='input-value'><p>px</p><input type='text' placeholder='0' title='right' class='input-value'><p>px</p><input type='text' placeholder='0' title='bottom' class='input-value'><p>px</p><input type='text' placeholder='0' title='left' class='input-value'><p>px</p></li>
+    </ul>
+    <ul>
+      <li><p class='bold'>CSS CODE</p><p>-</p><a href='#'>Copy CODE</a></li>
+      <li>
+        <textarea title='css code' class='textarea'>
+          <p>
+      .isometric{
+        background-color:#242424;
+        background-image:url('image.png');
+        background-size:cover;
+        background-position:center;
+        width:400px;
+        height:300px;
+      }
+          </p>
+        </textarea>
+      </li>
+    </ul>
+    <ul>
+      <li><p class='bold'>Export image as</p><p>PNG</p></li>
+      <li><a href='#' class='button'>Export</a></li>
+    </ul>
+    <ul>
+      <li><p class='bold'>Isometric Designer Tool</p><p>&copy;</p><p>2017</p><a href='#' class='bold' target='_blank'><img src='logowhite80.png'></a></li>
+    </ul>
+  </nav>
+  <section>
+    <h4>ISOMETRIC PRESENTATION TITLE</h4>
+      <div class='grid'>
+        <div class='iso1'></div>
+        <div class='iso2'></div>
+        <div class='iso3'></div>
+        <div class='iso4'></div>
+        <div class='iso5'></div>
+      </div>
+  </section>
+</body>
+</html>
